@@ -83,18 +83,6 @@ public class MinHeap < E extends Comparable<? super E>> {
 		 
 		 return smallest;	 
 		 
-//		 if (size() < ((2*index)) ) {
-//			 return heap[index];
-//		 }
-//		 
-//		 E left = heap[2*index];
-//		 E right = heap[(2*index) + 1];
-//		 
-//		 if ((left.compareTo(right)) < 0) {
-//			 return left;
-//		 } else {
-//			 return right;
-//		 }
 	 }
 	 
 	 public E remove() {
